@@ -205,13 +205,7 @@ def main():
 
         update(win, fireworks)
 
-        # stats for fun
-        # total_particles = 0
-        # for f in fireworks:
-        #    total_particles += len(f.particles)
-
-        # print(f"Fireworks: {len(fireworks)}\nParticles: {total_particles}\n\n")
-
+     
     pygame.quit()
     quit()
 
